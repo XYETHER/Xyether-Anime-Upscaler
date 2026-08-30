@@ -10,7 +10,7 @@
 
 **xyether anime** is a fast SRVGG-based model for clean 2× upscaling of anime artwork and illustrations.
 
-[Preview](#-preview) · [Models](#-model-variants) · [Google Colab](#-google-colab) · [Usage](#-usage)
+[Preview](#-preview) · [Models](#-model-variants) · [Google Colab](#-google-colab)
 
 </div>
 
@@ -48,11 +48,26 @@ Run the TensorRT version directly in Google Colab:
 
 The Colab workflow uses the `2x_XyetherAnimeV5.engine` TensorRT engine. For best performance, use a GPU runtime and FP16.
 
-## 🛠️ Usage
+## 🧾 Model card
 
-Recommended settings:
+| Field | Value |
+| --- | --- |
+| **Task** | Single-image super-resolution |
+| **Scale** | 2× |
+| **Architecture** | SRVGG |
+| **Focus** | Anime and illustrated content |
+| **Input / output** | RGB image → RGB image at 2× resolution |
 
-```text
-Scale:     2×
-Precision: FP16 when supported; otherwise FP32
-Tiling:    Enable for large images or limited VRAM
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🙌 Credits
+
+Built and released by **xyether**.
+
+<div align="center">
+
+### Sharp anime. Fast upscaling.
+
+</div>
