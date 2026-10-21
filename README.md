@@ -44,9 +44,9 @@ All variants upscale images by **2×**.
 
 Run the TensorRT version directly in Google Colab:
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LNIDSQQ6MwVzWIJh1Bm-_cHZ_xvxhGcZ?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XYETHER/Xyether-Anime-Upscaler/blob/main/Xyether_Anime_Upscaler.ipynb)
 
-The Colab workflow uses the `2x_XyetherAnimeV5.engine` TensorRT engine. For best performance, use a GPU runtime and FP16.
+Select a **T4 GPU** and run the single upscaling cell. It includes setup and uses the FP16 `2x_XyetherAnimeV5_T4_TRT10.16.1.11.engine` with **TensorRT 10.16.1.11**. An existing matching installation is reused; missing dependencies are installed only when needed. Leave `video_path` empty to upload an image or video, or provide a file/folder path.
 
 ## 🧾 Model card
 
