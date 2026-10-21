@@ -140,7 +140,7 @@
       {
         "kind": ".png",
         "codec": "h264_nvenc",
-        "seconds": 5.021584011999948,
+        "seconds": 3.669746101000328,
         "output_shape": [
           512,
           640,
@@ -150,7 +150,7 @@
       {
         "kind": ".mp4",
         "codec": "h264_nvenc",
-        "seconds": 5.459026930000164,
+        "seconds": 4.2337601979998,
         "width": 640,
         "height": 512,
         "frames": 6,
@@ -159,7 +159,7 @@
       {
         "kind": ".mp4",
         "codec": "hevc_nvenc",
-        "seconds": 5.197669704999953,
+        "seconds": 4.351772748000258,
         "width": 640,
         "height": 512,
         "frames": 6,
