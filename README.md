@@ -46,7 +46,7 @@ Run the TensorRT version directly in Google Colab:
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XYETHER/Xyether-Anime-Upscaler/blob/main/Xyether_Anime_Upscaler.ipynb)
 
-Select a **T4 GPU** and run the single upscaling cell. It includes setup and uses the FP16 `2x_XyetherAnimeV5_T4_TRT10.16.1.11.engine` with **TensorRT 10.16.1.11**. An existing matching installation is reused; missing dependencies are installed only when needed. Leave `video_path` empty to upload an image or video, or provide a file/folder path.
+Select a **T4 GPU** and run the single upscaling cell. It includes setup and uses the FP16 `2x_XyetherAnimeV5_T4_TRT10.16.1.11.engine` with **TensorRT 10.16.1.11**. Leave `video_path` empty to upload an image or video, or provide a file/folder path.
 
 ## 🧾 Model card
 
